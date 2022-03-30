@@ -1,0 +1,29 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.add,.remove{
+  border: 1px solid transparent;
+  border-radius: 4px;
+  width: 30%;
+  min-width: 100px;
+  height: 25px;
+  cursor: pointer;
+}
+.add{
+  background: #00ff00;
+  
+}
+.remove{
+  background: tomato;
+}
